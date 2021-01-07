@@ -1,11 +1,13 @@
 package com.example.demo.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
+@Component
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
