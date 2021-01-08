@@ -1,4 +1,4 @@
-package com.example.demo.service.Student;
+package com.example.demo.service.student;
 
 import com.example.demo.model.dto.dtoRequest.StudentRequest;
 import com.example.demo.model.dto.dtoResponse.StudentResponse;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.function.Function;
 
 @Service
-public class StudentServiceImpl implements IStudentService {
+public class StudentServiceImpl implements com.example.demo.service.Student.IStudentService {
     @Autowired
     private StudentRepository studentRepository;
     @Autowired

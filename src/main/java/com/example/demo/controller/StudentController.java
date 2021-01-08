@@ -55,5 +55,4 @@ public class StudentController {
         }
         return responseData;
     }
-
 }

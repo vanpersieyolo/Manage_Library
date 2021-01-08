@@ -1,5 +1,10 @@
 package com.example.demo.model.dto.dtoResponse;
 
+import com.example.demo.model.entity.Book;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.List;
+
 public class StudentResponse {
     @JsonProperty("id")
     private Long id;
